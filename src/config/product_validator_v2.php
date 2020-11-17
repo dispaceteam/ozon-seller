@@ -39,7 +39,7 @@ return [
         'type'           => 'array', //todo type pdf_list
         'requiredCreate' => false,
     ],
-
+    'name'  => ['type' => 'str', 'requiredCreate' => false],
     'old_price'     => ['type' => 'str', 'requiredCreate' => false],
     'price'         => ['type' => 'str', 'requiredCreate' => true],
     'premium_price' => ['type' => 'str', 'requiredCreate' => false],
